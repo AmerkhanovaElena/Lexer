@@ -1,0 +1,30 @@
+bool someFunc3000(string str) {
+	if (str == "true") {
+		write("true");
+		return true;
+	}
+	else {
+		write("false");
+		return false; //some comment
+	}
+}
+
+int main() {
+	int number = 0;
+	while (number < 100.5 && !(number + 5 > 100)) {
+		for (int i = 0; i <= 10; i=i+1) {
+			number = number + 1;
+		}
+		number = number * 1.5E+10;
+	}
+
+/*another
+comment
+now
+multiline*/ 
+	
+	string s = "false";
+	someFunc3000(s);
+	
+	return 0;
+}
